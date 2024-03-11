@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker App</title>
+  </head>
+  <body>
+    <form id="form">
+      <label for="expense-amount">Choose Expense Amount: </label>
+      <input type="text" id="expense-amount" />
+
+      <label for="description">Choose Description: </label>
+      <input type="text" id="description" />
+
+      <label for="category">Choose Category: </label>
+
+      <select id="category">
+        <option value="Fuel">Fuel</option>
+        <option value="Mobile">Mobile</option>
+        <option value="Recharge">Recharge</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <button type="submit">Add Expense</button>
+    </form>
+    <ul id="listItem"></ul>
+    <script src="index.js"></script>
+  </body>
+</html>
